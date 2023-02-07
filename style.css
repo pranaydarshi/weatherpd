@@ -1,0 +1,33 @@
+body{
+    /* background-color : rgb(61, 56, 56); */
+    background-color:bisque;
+}
+h1{
+    /* color :#f30404; */
+    font-size: 40px;
+}
+input[type="text"]{
+    margin-left: 39%;
+    border-top: hidden;
+    border-left:hidden;
+    border-right:hidden;
+    outline:none;
+    /* background-color: rgb(238, 0, 0); */
+    background:inherit;
+    border-bottom: 2px solid black;
+    width:20%;
+    height: 20px;
+
+
+}
+button{
+    background: inherit;
+}
+input[type="text"]::placeholder{
+    color:black;
+}
+#graph{
+    margin-top: 10%;
+    margin-left: 29%;
+    width:600px;
+}
